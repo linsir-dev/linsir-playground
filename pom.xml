@@ -2,18 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <parent>
-    <groupId>com.linsir</groupId>
-    <artifactId>linsir-cloud</artifactId>
-    <version>1.2.0</version>
-  </parent>
-
-  <artifactId>linsir-linsir-playground</artifactId>
+  <groupId>com.linsir</groupId>
+  <artifactId>linsir-playground</artifactId>
   <version>1.2.0</version>
   <packaging>pom</packaging>
-  <modules>
-    <module>linsir-linsir-playground-server</module>
-  </modules>
 
   <distributionManagement>
     <site>
