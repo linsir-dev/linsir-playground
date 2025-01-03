@@ -1,0 +1,9 @@
+server:
+  port: 7070
+
+spring:
+  application:
+    name: linsir-core-auto-playground
+logging:
+  level:
+    web: info
