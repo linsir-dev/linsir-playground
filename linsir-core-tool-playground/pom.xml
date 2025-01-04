@@ -7,10 +7,10 @@
         <version>1.2.0</version>
     </parent>
 
-    <artifactId>linsir-core-launch-playground</artifactId>
+    <artifactId>linsir-core-tool-playground</artifactId>
     <packaging>jar</packaging>
 
-    <name>linsir-core-launch-playground</name>
+    <name>linsir-core-tool-playground</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -19,8 +19,8 @@
 
     <dependencies>
         <dependency>
-           <groupId>com.linsir</groupId>
-            <artifactId>linsir-core-launch</artifactId>
+            <groupId>com.linsir</groupId>
+            <artifactId>linsir-core-tool</artifactId>
         </dependency>
     </dependencies>
 </project>
