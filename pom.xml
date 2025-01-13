@@ -12,6 +12,7 @@
     <module>linsir-core-launch-playground</module>
       <module>linsir-core-tool-playground</module>
     <module>linsir-core-knife4j-playground</module>
+      <module>linsir-core-cloud-playground</module>
   </modules>
 
   <distributionManagement>
