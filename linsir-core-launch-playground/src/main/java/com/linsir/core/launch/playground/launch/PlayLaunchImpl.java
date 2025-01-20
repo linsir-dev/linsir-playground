@@ -20,7 +20,7 @@ public class PlayLaunchImpl implements LauncherService {
     @Override
     public void launcher(SpringApplicationBuilder builder, String appName, String profile, boolean isLocalDev) {
         Properties props = System.getProperties();
-        props.setProperty("linsir.service.version","1.2.0");
+        props.setProperty("linsir.service.version","dev-1.2.0");
         log.info("===============linsir.service.version :" + "被新定义" + " with profile: {}" , profile);
     }
 

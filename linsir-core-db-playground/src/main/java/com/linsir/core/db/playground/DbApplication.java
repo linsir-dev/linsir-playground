@@ -14,6 +14,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication(scanBasePackages = "com.linsir")
 public class DbApplication {
     public static void main(String[] args) {
-        SpringApplication.run(DbApplication.class, args);
+       LinsirApplication.run("db-core", DbApplication.class, args);
     }
 }

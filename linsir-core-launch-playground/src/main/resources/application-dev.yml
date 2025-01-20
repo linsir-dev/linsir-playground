@@ -3,7 +3,3 @@ server:
 spring:
   application:
     name:
-
-linsir:
-  service:
-    version: 1.2.1

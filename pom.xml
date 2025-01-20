@@ -8,13 +8,12 @@
   <packaging>pom</packaging>
   <modules>
     <module>linsir-bom-playground</module>
-    <module>linsir-core-auto-playground</module>
     <module>linsir-core-launch-playground</module>
     <module>linsir-core-tool-playground</module>
     <module>linsir-core-knife4j-playground</module>
     <module>linsir-core-cloud-playground</module>
-    <module>linsir-core-palyground</module>
     <module>linsir-core-db-playground</module>
+    <module>linsir-core-auto-playground</module>
   </modules>
 
   <distributionManagement>
@@ -25,7 +24,7 @@
   </distributionManagement>
 
   <properties>
-    <java.version>21</java.version>
+    <java.version>17</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -78,32 +77,6 @@
   </dependencyManagement>
 
   <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.9.0</version>
-        <configuration>
-          <source>${java.version}</source>
-          <target>${java.version}</target>
-          <encoding>UTF-8</encoding>
-          <compilerArgs>
-            <arg>-parameters</arg>
-          </compilerArgs>
-          <annotationProcessorPaths>
-            <path>
-              <groupId>org.hibernate.validator</groupId>
-              <artifactId>hibernate-validator-annotation-processor</artifactId>
-              <version>6.0.13.Final</version>
-            </path>
-            <path>
-              <groupId>org.projectlombok</groupId>
-              <artifactId>lombok</artifactId>
-              <version>1.18.30</version>
-            </path>
-          </annotationProcessorPaths>
-        </configuration>
-      </plugin>
-    </plugins>
+
   </build>
 </project>
