@@ -7,10 +7,10 @@
         <version>1.2.0</version>
     </parent>
 
-    <artifactId>linsir-core-tool-playground</artifactId>
+    <artifactId>linsir-core-mybatis-playground</artifactId>
     <packaging>jar</packaging>
 
-    <name>linsir-core-tool-playground</name>
+    <name>linsir-core-mybatis-playground</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -20,7 +20,7 @@
     <dependencies>
         <dependency>
             <groupId>com.linsir</groupId>
-            <artifactId>linsir-core-tool</artifactId>
+            <artifactId>linsir-core-db</artifactId>
         </dependency>
     </dependencies>
 </project>

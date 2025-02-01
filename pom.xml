@@ -9,11 +9,12 @@
   <modules>
     <module>linsir-bom-playground</module>
     <module>linsir-core-launch-playground</module>
-    <module>linsir-core-tool-playground</module>
     <module>linsir-core-knife4j-playground</module>
     <module>linsir-core-cloud-playground</module>
     <module>linsir-core-db-playground</module>
     <module>linsir-core-auto-playground</module>
+    <module>linsir-core-playground</module>
+      <module>linsir-core-mybatis-playground</module>
   </modules>
 
   <distributionManagement>

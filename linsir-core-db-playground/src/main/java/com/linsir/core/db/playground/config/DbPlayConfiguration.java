@@ -11,6 +11,6 @@ import org.springframework.context.annotation.Configuration;
  * date       ：2025/1/21 23:13
  */
 @Configuration
-public class DbPlyConfiguration {
+public class DbPlayConfiguration {
 
 }

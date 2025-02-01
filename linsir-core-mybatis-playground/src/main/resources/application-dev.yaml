@@ -1,5 +1,6 @@
 server:
-  port: 7072
+  port: 7077
+
 
 spring:
   datasource:
@@ -7,3 +8,4 @@ spring:
     url: jdbc:mysql://106.55.181.141:3306/linsir_play?characterEncoding=utf8&serverTimezone=Asia/Shanghai
     username: root
     password: yu@2023
+
