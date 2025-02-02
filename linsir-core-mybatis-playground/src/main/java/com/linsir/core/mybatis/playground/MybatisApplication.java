@@ -2,7 +2,6 @@ package com.linsir.core.mybatis.playground;
 
 
 import com.linsir.core.launch.LinsirApplication;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
