@@ -1,9 +1,9 @@
-package com.linsir.core.mybatis.playground.modules.dict.service.impl;
+package com.linsir.core.mybatis.playground.modules.example.service.impl;
 
 
-import com.linsir.core.mybatis.playground.modules.dict.entiy.DictDemo;
-import com.linsir.core.mybatis.playground.modules.dict.mapper.DictDemoMapper;
-import com.linsir.core.mybatis.playground.modules.dict.service.DictDemoService;
+import com.linsir.core.mybatis.playground.modules.example.entity.DictDemo;
+import com.linsir.core.mybatis.playground.modules.example.mapper.DictDemoMapper;
+import com.linsir.core.mybatis.playground.modules.example.service.DictDemoService;
 import com.linsir.core.mybatis.service.impl.BaseServiceImpl;
 import org.springframework.stereotype.Service;
 

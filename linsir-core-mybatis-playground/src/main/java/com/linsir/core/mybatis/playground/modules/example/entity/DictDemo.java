@@ -1,4 +1,4 @@
-package com.linsir.core.mybatis.playground.modules.dict.entiy;
+package com.linsir.core.mybatis.playground.modules.example.entity;
 
 
 import com.baomidou.mybatisplus.annotation.TableName;

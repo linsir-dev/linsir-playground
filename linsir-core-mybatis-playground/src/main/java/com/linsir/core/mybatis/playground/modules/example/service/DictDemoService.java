@@ -1,7 +1,7 @@
-package com.linsir.core.mybatis.playground.modules.dict.service;
+package com.linsir.core.mybatis.playground.modules.example.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.linsir.core.mybatis.playground.modules.dict.entiy.DictDemo;
+import com.linsir.core.mybatis.playground.modules.example.entity.DictDemo;
 
 /**
  * description：
