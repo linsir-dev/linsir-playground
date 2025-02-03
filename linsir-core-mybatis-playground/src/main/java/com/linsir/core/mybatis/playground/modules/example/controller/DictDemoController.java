@@ -3,6 +3,8 @@ package com.linsir.core.mybatis.playground.modules.example.controller;
 
 import com.linsir.core.mybatis.controller.BaseCrudRestController;
 import com.linsir.core.mybatis.playground.modules.example.entity.DictDemo;
+import com.linsir.core.mybatis.playground.modules.example.vo.DictDemoVo;
+import com.linsir.core.results.R;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,4 +19,15 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/dict/")
 public class DictDemoController extends BaseCrudRestController<DictDemo> {
 
+
+    /**
+     * 字典测试
+     * @param id
+     * @return
+     */
+    @GetMapping("getVo/{id}")
+    public R getVo(@PathVariable("id") Long id)
+    {
+        return exec(()->getViewObject(id, DictDemoVo.class));
+    }
 }
