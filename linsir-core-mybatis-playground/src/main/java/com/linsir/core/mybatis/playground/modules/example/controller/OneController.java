@@ -19,6 +19,12 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/one/")
 public class OneController extends BaseCrudRestController<One> {
 
+    @PostMapping("addOne")
+    public Object addOne(One one) throws Exception {
+        return createEntity(one);
+    }
+
+
     /**
      * 增加
      * @param one
