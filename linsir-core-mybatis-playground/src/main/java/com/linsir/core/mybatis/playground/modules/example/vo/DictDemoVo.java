@@ -14,6 +14,6 @@ import lombok.Data;
 @Data
 public class DictDemoVo extends DictDemo {
 
-    @BindDict(type = "AUTH_TYPE",field = "dict_id")
+    @BindDict(type = "auth",field = "dictId")
     private String dictValue;
 }

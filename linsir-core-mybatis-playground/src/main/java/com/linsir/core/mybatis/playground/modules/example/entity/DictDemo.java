@@ -19,6 +19,6 @@ public class DictDemo extends BaseEntity<Long> {
 
     private String name;
 
-    private int dictId;
+    private String dictId;
 
 }

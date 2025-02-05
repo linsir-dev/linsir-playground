@@ -24,45 +24,45 @@ public class OneController extends BaseCrudRestController<One> {
      * @param one
      * @return
      */
-    @PostMapping("add")
+   /* @PostMapping("add")
     public R add(One one) {
         return exec(()-> createEntity(one));
-    }
+    }*/
 
     /**
      * 逻辑删除
      * @param id
      * @return
      */
-    @DeleteMapping("del/{id}")
+   /* @DeleteMapping("del/{id}")
     public R del(@PathVariable("id") Long id) {
         return exec(()-> deleteEntity(id));
-    }
+    }*/
 
     /**
      * 修改
      * @param one
      * @return
      */
-    @PostMapping("update")
+    /*@PostMapping("update")
     public R update(One one) {
         return exec(()->updateEntity(one.getId(),one));
-    }
+    }*/
 
     /**
      * 查找 默认租户000000
      * @param id
      * @return
      */
-    @GetMapping("get/{id}")
+   /* @GetMapping("get/{id}")
     public R get(@PathVariable("id") Long id)
     {
         return exec(()-> JsonResult.OK( getEntity(id)));
-    }
+    }*/
 
-    @Override
+    /*@Override
     protected String beforeCreate(One entityOrDto) throws Exception {
         log.info("beforeCreate:{}.可以验证",entityOrDto);
         return null;
-    }
+    }*/
 }

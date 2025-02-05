@@ -4,7 +4,7 @@ package com.linsir.core.mybatis.playground.modules.example.controller;
 import com.linsir.core.mybatis.controller.BaseCrudRestController;
 import com.linsir.core.mybatis.playground.modules.example.entity.DictDemo;
 import com.linsir.core.mybatis.playground.modules.example.vo.DictDemoVo;
-import com.linsir.core.results.R;
+import com.linsir.core.mybatis.vo.JsonResult;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
@@ -26,8 +26,9 @@ public class DictDemoController extends BaseCrudRestController<DictDemo> {
      * @return
      */
     @GetMapping("getVo/{id}")
-    public R getVo(@PathVariable("id") Long id)
-    {
-        return exec(()->getViewObject(id, DictDemoVo.class));
+    public JsonResult<DictDemoVo> getVo(@PathVariable("id") Long id) throws Exception {
+       /* return exec(()->getViewObject(id, DictDemoVo.class));*/
+        return getViewObject(id,DictDemoVo.class);
     }
+
 }

@@ -19,8 +19,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class IndexController {
 
     @GetMapping("")
-    public R index()
+    public String index()
     {
-        return JsonResult.OK();
+        return "xxxxxxxxxxxxx";
     }
 }
