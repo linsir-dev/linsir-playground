@@ -3,7 +3,6 @@ package com.linsir.core.mybatis.playground.modules.example.controller;
 
 import com.linsir.core.mybatis.controller.BaseCrudRestController;
 import com.linsir.core.mybatis.playground.modules.example.entity.One;
-import com.linsir.core.mybatis.vo.JsonResult;
 import com.linsir.core.results.R;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
@@ -30,10 +29,10 @@ public class OneController extends BaseCrudRestController<One> {
      * @param one
      * @return
      */
-   /* @PostMapping("add")
+    @PostMapping("add")
     public R add(One one) {
         return exec(()-> createEntity(one));
-    }*/
+    }
 
     /**
      * 逻辑删除
