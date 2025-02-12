@@ -1,9 +1,10 @@
 package com.linsir.core.mybatis.playground.modules.example.entity;
 
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.linsir.core.mybatis.entity.BaseEntity;
-import com.linsir.core.mybatis.util.S;
+import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -17,5 +18,10 @@ import lombok.EqualsAndHashCode;
 @TableName("demo_entity")
 @Data
 public class DemoEntity extends BaseEntity<Long> {
+
+    @TableField(exist = false)
+    @NotNull(message = "上级ID不能为空，如无请设为0")
+    private String parentId;
+
     private String name;
 }
