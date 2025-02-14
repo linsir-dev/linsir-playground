@@ -16,3 +16,4 @@ mybatis-plus:
 linsir:
   mybatis-plus:
     ignoreTables: demo_entity,demo_tree_entity
+  i18n: true
