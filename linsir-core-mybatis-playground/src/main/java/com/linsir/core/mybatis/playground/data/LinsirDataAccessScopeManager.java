@@ -19,6 +19,11 @@ public class LinsirDataAccessScopeManager extends UserOrgDataAccessScopeManager 
     @Override
     public List<Class<?>> getEntityClasses() {
         List<Class<?>> entityClasses = new ArrayList<Class<?>>();
+        /*try {
+            entityClasses.add(Class.forName("DataScope"));
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }*/
         entityClasses.add(DataScope.class);
         return entityClasses;
     }
