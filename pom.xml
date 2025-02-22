@@ -15,6 +15,7 @@
     <module>linsir-core-auto-playground</module>
     <module>linsir-core-playground</module>
     <module>linsir-core-mybatis-playground</module>
+      <module>linsir-saToken-playground</module>
   </modules>
 
   <distributionManagement>
