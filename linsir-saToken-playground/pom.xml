@@ -11,6 +11,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>linsir-saToken-springboot-playground</module>
+        <module>linsir-saToken-oauth-playground</module>
     </modules>
 
     <distributionManagement>
